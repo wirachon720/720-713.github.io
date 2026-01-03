@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  border: 1px solid black;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+</style>
+</head>
+<body>
+
+<h2>การเว้นระยะ css</h2>
+
+<div>องค์ประกอบนี้มีระยะห่างด้านบน 50px ระยะห่างด้านขวา 30px ระยะห่างด้านล่าง 50px และระยะห่างด้านซ้าย 80px</div>
+
+</body>
+</html>
