@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#panel, .flip {
+  padding: 10px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+  border: solid 1px #a6d8a8;
+  margin: auto;
+  cursor:pointer;
+}
+
+#panel {
+  display: none;
+}
+</style>
+<h1>การแสดงผล CSS</h1>
+</head>
+<body>
+
+<p class="flip" onclick="myFunction()">คลิกเพื่อแสดง panel</p>
+
+<div id="panel">
+  <p>สวัสดีชาวไทย</p>
+</div>
+
+<script>
+function myFunction() {
+  document.getElementById("panel").style.display = "block";
+}
+</script>
+
+</body>
+</html>
