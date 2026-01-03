@@ -1,66 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-ul.a {list-style-type: circle;}
-ul.b {list-style-type: disc;}
-ul.c {list-style-type: square;}
+<meta charset="UTF-8">
+<title>List Style Example</title>
 
-ol.d {list-style-type: upper-roman;}
-ol.e {list-style-type: lower-roman;}
-ol.f {list-style-type: lower-alpha;}
-ol.g {list-style-type: decimal;}
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        background: linear-gradient(120deg, #74ebd5, #9face6);
+        margin: 0;
+        padding: 40px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+        background: #ffffff;
+        padding: 30px 40px;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        color: #6c63ff;
+        margin-top: 30px;
+    }
+
+    ul, ol {
+        margin-left: 30px;
+        font-size: 16px;
+        line-height: 1.8;
+        color: #444;
+    }
+
+    ul.a { list-style-type: circle; }
+    ul.b { list-style-type: disc; }
+    ul.c { list-style-type: square; }
+
+    ol.d { list-style-type: upper-roman; }
+    ol.e { list-style-type: lower-roman; }
+    ol.f { list-style-type: lower-alpha; }
+    ol.g { list-style-type: decimal; }
+
+    .box {
+        background: #f5f7ff;
+        padding: 15px 20px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
 </style>
 </head>
+
 <body>
 
-<h2>The list-style-type Property</h2>
+<div class="container">
+    <h2>The list-style-type Property</h2>
 
-<p>Example of unordered lists:</p>
-<ul class="a">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ul>
+    <h3>📌 Unordered Lists</h3>
 
-<ul class="b">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ul>
+    <div class="box">
+        <ul class="a">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+    </div>
 
-<ul class="c">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ul>
+    <div class="box">
+        <ul class="b">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+    </div>
 
-<p>Example of ordered lists:</p>
-<ol class="d">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ol>
+    <div class="box">
+        <ul class="c">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+    </div>
 
-<ol class="e">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ol>
+    <h3>📌 Ordered Lists</h3>
 
-<ol class="f">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ol>
+    <div class="box">
+        <ol class="d">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ol>
+    </div>
 
-<ol class="g">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ol>
+    <div class="box">
+        <ol class="e">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ol>
+    </div>
+
+    <div class="box">
+        <ol class="f">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ol>
+    </div>
+
+    <div class="box">
+        <ol class="g">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ol>
+    </div>
+</div>
 
 </body>
 </html>
-
-
